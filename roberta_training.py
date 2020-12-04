@@ -133,7 +133,7 @@ def get_roberta_output(model_roberta, tokenizer, nlu_t, headers, max_seq_length)
         for (i, token) in enumerate(nlu_t1):
             t_to_tt_idx1.append(
                 len(nlu_tt1))  
-            sub_tokens = tokenizer.tokenize(token, is_pretokenized=True)
+            sub_tokens = tokenizer.tokenize(token, is_split_into_words=True)
             for sub_token in sub_tokens:
                 tt_to_t_idx1.append(i)
                 nlu_tt1.append(sub_token) 
