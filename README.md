@@ -1,5 +1,6 @@
 # Data Agnostic RoBERTa-based Natural Language to SQL Query Generation
-This repo contains the code for NL2SQL paper titled "Data Agnostic RoBERTa-based Natural Language to SQL Query Generation". The link to which is https://arxiv.org/abs/2010.05243
+This repo contains the code for NL2SQL paper titled "Data Agnostic RoBERTa-based Natural Language to SQL Query Generation". The link to which is: https://arxiv.org/abs/2010.05243
+
 Our code was based on the previous works introduced in the paper "Content Enhanced BERT-based Text-to-SQL Generation", the code to which can be found [here](https://github.com/guotong1988/NL2SQL-RULE). Feel free to experiment with the models.
 
 ## Getting Started
