@@ -92,7 +92,7 @@ def process(data,tokenize):
         for (ii, token) in enumerate(nlu_t1):
             t_to_tt_idx1.append(
                 len(nlu_tt1))  # all_doc_tokens[ indicate the start position of original 'white-space' tokens.
-            sub_tokens = tokenize.tokenize(token, is_split_into_words=True)
+            sub_tokens = tokenize.tokenize(token, is_pretokenized=True)
             for sub_token in sub_tokens:
                 tt_to_t_idx1.append(ii)
                 nlu_tt1.append(sub_token)  # all_doc_tokens are further tokenized using RoBERTa tokenizer
